@@ -3,9 +3,12 @@ File Name: SalesTax Part 2
 Programmer: Montavius Spratley Burford
 Date: 2/9/2025
 Requirements:
-Revise the program you wrote for Exercise 3 but instead of having state and country tax hard-coded in your program allow
-the user to enter the sale taxes as well as the amount of purchase and display the total sales tax.
-The revision should be created in a new branch of the project with thee revised program.
+Revise the program you wrote for Exercise 3 but instead of 
+having state and country tax hard-coded in your program allow
+the user to enter the sale taxes as well as the 
+amount of purchase and display the total sales tax.
+The revision should be created in a new branch of the 
+project with thee revised program.
 */
 
 #include <iostream>
