@@ -1,31 +1,28 @@
 /*
-File Name: SalesTax
-Programmer: Montavius Spratley Burfor
+File Name: SalesTax Part 2
+Programmer: Montavius Spratley Burford
 Date: 2/9/2025
 Requirements:
-Write a program that will compute the total sales tax on a $95 purchase.
-Assume the state sales tax is 4 percent and the county sales tax is 2 percent.
-Display the purchase price, state sales tax, county sales tax, and total sales tax on the screen.
+Revise the program you wrote for Exercise 3 but instead of having state and country tax hard-coded in your program allow
+the user to enter the sale taxes as well as the amount of purchase and display the total sales tax.
+The revision should be created in a new branch of the project with thee revised program.
 */
 
 #include <iostream>
 using namespace std;
 
 int main() {
-    double purchaseAmount, stateSalesTaxRate, countySalesTaxRate, totalStateTax, totalCountyTax, totalSalesTax;
+    double purchaseAmount, totalSalesTax;
 
     cout << "Enter the purchase amount: ";
     cin >> purchaseAmount;
 
-    cout << "Enter the state sales tax rate (as a decimal): ";
-    cin >> stateSalesTaxRate;
+    cout << "Enter the sales tax rate (as a decimal): ";
+    cin >> totalSalesTax;
 
-    cout << "Enter the county sales tax rate (as a decimal): ";
-    cin >> countySalesTaxRate;
-
-    totalStateTax = purchaseAmount * stateSalesTaxRate;
-    totalCountyTax = purchaseAmount * countySalesTaxRate;
-    totalSalesTax = totalStateTax + totalCountyTax;
+   
+;
+    totalSalesTax = purchaseAmount * totalSalesTax;
 
     cout << "The total sales tax on a $" << purchaseAmount << " purchase is $" << totalSalesTax << endl;
 
